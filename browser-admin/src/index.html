@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administração do Navegador Da Hora</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciar Links</h1>
+        <form id="linkForm">
+            <div class="link-input">
+                <label for="title1">Título 1:</label>
+                <input type="text" id="title1" required>
+                <label for="url1">URL 1:</label>
+                <input type="url" id="url1" required>
+            </div>
+            <div class="link-input">
+                <label for="title2">Título 2:</label>
+                <input type="text" id="title2" required>
+                <label for="url2">URL 2:</label>
+                <input type="url" id="url2" required>
+            </div>
+            <div class="link-input">
+                <label for="title3">Título 3:</label>
+                <input type="text" id="title3" required>
+                <label for="url3">URL 3:</label>
+                <input type="url" id="url3" required>
+            </div>
+            <div class="link-input">
+                <label for="title4">Título 4:</label>
+                <input type="text" id="title4" required>
+                <label for="url4">URL 4:</label>
+                <input type="url" id="url4" required>
+            </div>
+            <button type="submit">Salvar Links</button>
+        </form>
+        <div id="linkList">
+            <h2>Links Atuais</h2>
+            <ul id="links"></ul>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
