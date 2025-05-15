@@ -8,32 +8,13 @@
 </head>
 <body>
     <div class="container">
+        <div class="logo-container">
+            <img src="../image/icon.png" alt="Logo Navegador Da Hora" class="logo">
+        </div>
         <h1>Gerenciar Links</h1>
         <form id="linkForm">
-            <div class="link-input">
-                <label for="title1">Título 1:</label>
-                <input type="text" id="title1">
-                <label for="url1">URL 1:</label>
-                <input type="url" id="url1">
-            </div>
-            <div class="link-input">
-                <label for="title2">Título 2:</label>
-                <input type="text" id="title2">
-                <label for="url2">URL 2:</label>
-                <input type="url" id="url2">
-            </div>
-            <div class="link-input">
-                <label for="title3">Título 3:</label>
-                <input type="text" id="title3">
-                <label for="url3">URL 3:</label>
-                <input type="url" id="url3">
-            </div>
-            <div class="link-input">
-                <label for="title4">Título 4:</label>
-                <input type="text" id="title4">
-                <label for="url4">URL 4:</label>
-                <input type="url" id="url4">
-            </div>
+            <div id="dynamicInputs"></div>
+            <button type="button" id="addLinkBtn">Adicionar Link</button>
             <button type="submit">Salvar Links</button>
         </form>
         <div id="responseMsg" class="response-message"></div>
